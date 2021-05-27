@@ -1,7 +1,7 @@
 services:
     db:
-      image: mysql:latest
-      platform: linux/x86_64
+      image: mariadb:latest
+    #   platform: linux/x86_64
       container_name: mysqldb
       restart: always
       ports:
@@ -11,3 +11,5 @@ services:
       environment:
         - MYSQL_ROOT_PASSWORD=root
         - MYSQL_DATABASE=event
+      volumes:
+        - ./database/datadir/init.sql:/docker-entrypoint-initdb.d/init.sql
