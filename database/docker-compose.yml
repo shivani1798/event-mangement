@@ -12,4 +12,4 @@ services:
         - MYSQL_ROOT_PASSWORD=root
         - MYSQL_DATABASE=event
       volumes:
-        - ./database/datadir/init.sql:/docker-entrypoint-initdb.d/init.sql
+        - ./datadir/init.sql:/docker-entrypoint-initdb.d/init.sql

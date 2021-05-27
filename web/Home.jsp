@@ -29,11 +29,11 @@
 
 <div id="slider">
 <figure>
-<img src="wed2.jpg" alt>
-<img src="bd2.jpg" alt>
-<img src="bd6.jpg" alt>
-<img src="wed3.jpg" alt>
-<img src="bd4.jpg" alt>a
+<img src="img/wed2.jpg" alt>
+<img src="img/bd2.jpg" alt>
+<img src="img/bd6.jpg" alt>
+<img src="img/wed3.jpg" alt>
+<img src="img/bd4.jpg" alt>a
 </div>
 
 
