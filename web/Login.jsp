@@ -17,8 +17,8 @@
       <form  name="loginform" action="LoginServlet" method="post">
     
     
-      <input type="text" placeholder="Username" required="Username">
-      <input type="Password" placeholder="Password" required="Password">
+      <input type="text" name="username" placeholder="Username" required="Username">
+      <input type="password" name="password" placeholder="Password" required="Password">
     
        <button type="submit">Login</button>
      <p class="message">Create Account<a href="Registration.jsp">Login</a></p>
